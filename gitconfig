@@ -1,0 +1,22 @@
+[user]
+    email = email@gugang.net
+    name = Gu Gang
+[color]
+    ui = true
+[alias]
+    ci = commit
+    co = checkout
+    st = status
+    br = branch
+    desc = describe
+    glog = log --graph
+    cia = commit -a -S
+    fp = fetch --all --prune
+[core]
+    excludesfile = ~/.gitignorefile
+    autocrlf = input
+    editor = /usr/local/bin/vim
+[rerere]
+    enabled = true
+[push]
+    default = simple
